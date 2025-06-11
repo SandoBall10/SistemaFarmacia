@@ -3,7 +3,6 @@ import axios from 'axios';
 import $ from 'jquery';
 import 'datatables.net';
 import VentaForm from './registroventas';
-import { format } from 'date-fns';
 import { formatInTimeZone } from 'date-fns-tz';
 
 const API_URL = 'http://localhost:8010/api/venta';
@@ -50,7 +49,7 @@ const TablaVentas: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const timeZone = 'America/Lima'; // Cambia esto a tu zona horaria deseada
+  const timeZone = 'America/Lima';
 
   useEffect(() => {
     cargarDatos();
