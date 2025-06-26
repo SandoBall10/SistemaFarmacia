@@ -10,7 +10,7 @@ Este es un sistema de gestión para una farmacia, diseñado para facilitar el ma
 
 - **Backend:** Java con Spring Boot  
 - **Base de Datos:** H2 (en memoria) o JDBC  
-- **Frontend:** HTML, CSS, JavaScript (según sea el caso)  
+- **Frontend:** HTML, CSS, TypeScript
 - **IDE:** IntelliJ IDEA / Visual Studio Code
 
 ## 📦 Funcionalidades Principales
@@ -23,18 +23,28 @@ Este es un sistema de gestión para una farmacia, diseñado para facilitar el ma
 - Roles de usuario (Administrador, Vendedor).
   
 ## 🛠 Estructura del Proyecto
-
+```
 SistemaFarmacia-main/
-raíz-del-proyecto/
 │
-├── farmacia-spring/         # Proyecto Backend - Spring Boot
-│   ├── src/                # Código fuente Java
-│   └── pom.xml             # Configuración de Maven
+├── backend/
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/sistemafarmacia/
+│ │ │ │ ├── controllers/
+│ │ │ │ ├── models/
+│ │ │ │ ├── repositories/
+│ │ │ │ ├── services/
+│ │ │ │ └── SistemaFarmaciaApplication.java
+│ │ └── resources/
+│ │ ├── application.properties
+│ │ └── data.sql
 │
-├── farmacia-app/           # Proyecto Frontend - React + Vite
-│   ├── src/                # Código fuente TypeScript
-│   ├── public/             # Archivos estáticos
-│   └── package.json        # Configuración de dependencias
+├── frontend/
+│ ├── index.html
+│ ├── js/
+│ ├── css/
+│ └── ...
+```
 
 bash
 Copiar
