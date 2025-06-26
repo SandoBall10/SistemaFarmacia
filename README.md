@@ -24,52 +24,55 @@ Este es un sistema de gestión para una farmacia, diseñado para facilitar el ma
   
 ## 🛠 Estructura del Proyecto
 
-```
 SistemaFarmacia-main/
-�?├── backend/
-�?  ├── src/
-�?  �?  ├── main/
-�?  �?  �?  ├── java/com/sistemafarmacia/
-�?  �?  �?  �?  ├── controllers/
-�?  �?  �?  �?  ├── models/
-�?  �?  �?  �?  ├── repositories/
-�?  �?  �?  �?  ├── services/
-�?  �?  �?  �?  └── SistemaFarmaciaApplication.java
-�?  �?  └── resources/
-�?  �?      ├── application.properties
-�?  �?      └── data.sql
-�?├── frontend/
-�?  ├── index.html
-�?  ├── js/
-�?  ├── css/
-�?  └── ...
-```
+│
+├── backend/
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/sistemafarmacia/
+│ │ │ │ ├── controllers/
+│ │ │ │ ├── models/
+│ │ │ │ ├── repositories/
+│ │ │ │ ├── services/
+│ │ │ │ └── SistemaFarmaciaApplication.java
+│ │ └── resources/
+│ │ ├── application.properties
+│ │ └── data.sql
+│
+├── frontend/
+│ ├── index.html
+│ ├── js/
+│ ├── css/
+│ └── ...
+
+bash
+Copiar
+Editar
 
 ## 🔧 Instalación y Ejecución
 
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/tuusuario/SistemaFarmacia.git
-   ```
+Backend
 
-2. **Backend**
-   - Abrir con IntelliJ o cualquier IDE compatible.
-   - Ejecutar `SistemaFarmaciaApplication.java`.
-   - Asegurarse que el puerto definido (por defecto `8080`) esté disponible.
+Abrir con IntelliJ o cualquier IDE compatible.
 
-3. **Frontend**
-   - Abrir el archivo `index.html` en el navegador o levantar con un servidor local (como Live Server de VS Code).
+Ejecutar SistemaFarmaciaApplication.java.
 
-## 📄 Base de Datos
+Asegurarse que el puerto definido (por defecto 8080) esté disponible.
 
-El sistema puede usar H2 embebido o una conexión por JDBC. Se inicializa automáticamente con `data.sql` en el arranque de la aplicación.
+Frontend
 
-## 🤝 Contribuciones
+Abrir el archivo index.html en el navegador o levantar con un servidor local (como Live Server de VS Code).
 
+📄 Base de Datos
+El sistema puede usar H2 embebido o una conexión por JDBC. Se inicializa automáticamente con data.sql en el arranque de la aplicación.
+
+🤝 Contribuciones
 Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, puedes hacer un fork y crear un Pull Request con tus cambios.
 
-## 📧 Contacto
-
-Adrian Sandoval Ballona  
-Correo: [sandovalballona@gmail.com]  
-GitHub: [github.com/AdrianSB](https://github.com/AdrianSB)
+📧 Contacto
+Adrian Sandoval Ballona
+Correo: [sandovalballona@gmail.com]
+GitHub: github.com/AdrianSB
