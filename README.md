@@ -25,26 +25,16 @@ Este es un sistema de gestión para una farmacia, diseñado para facilitar el ma
 ## 🛠 Estructura del Proyecto
 
 SistemaFarmacia-main/
+raíz-del-proyecto/
 │
-├── backend/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/sistemafarmacia/
-│ │ │ │ ├── controllers/
-│ │ │ │ ├── models/
-│ │ │ │ ├── repositories/
-│ │ │ │ ├── services/
-│ │ │ │ └── SistemaFarmaciaApplication.java
-│ │ └── resources/
-│ │ ├── application.properties
-│ │ └── data.sql
+├── farmacia-spring/         # Proyecto Backend - Spring Boot
+│   ├── src/                # Código fuente Java
+│   └── pom.xml             # Configuración de Maven
 │
-├── frontend/
-│ ├── index.html
-│ ├── js/
-│ ├── css/
-│ └── ...
-
+├── farmacia-app/           # Proyecto Frontend - React + Vite
+│   ├── src/                # Código fuente TypeScript
+│   ├── public/             # Archivos estáticos
+│   └── package.json        # Configuración de dependencias
 
 bash
 Copiar
