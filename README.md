@@ -74,6 +74,8 @@ El sistema puede usar H2 embebido o una conexión por JDBC. Se inicializa autom�
 Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, puedes hacer un fork y crear un Pull Request con tus cambios.
 
 📧 Contacto
+```
 Adrian Sandoval Ballona
 Correo: [sandovalballona@gmail.com]
 GitHub: github.com/AdrianSB
+```
